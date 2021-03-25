@@ -4,6 +4,8 @@
 }
 body{
     position: relative;
+    background: url(handyimage.jpg) no-repeat center fixed;
+    background-size:cover;
 }
 #navbar{
     width: 100%;
@@ -13,33 +15,63 @@ body{
     align-items: center;
     border-bottom: 3px solid burlywood;
 }
-#navbar ul{
+#search{
+    width:25%;
     text-decoration:none;
     display: flex;
-    justify-content: space-around;
+    float: right;
+    justify-content:space-between;
 }
-#navbar ul li button{
+#search button{
+    color: white;
+    text-decoration: none;
+    border: none;
+    background:none;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+#login{
     color: white;
     text-decoration: none;
     border: none;
     background:none;
     font-size: 20px;
     letter-spacing: 2px;
-}
-#navbar ul button:hover{
+}/*
+#search button:hover, #login:hover{
     text-decoration: underline;
     text-decoration-color:burlywood;
     cursor: pointer;
-}
+}*/
 #page-wrapper{
     position: relative;
 }
+#div-wrapper1{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+
+}
 #example1{
+    height: 30vh;
+    width: 90%;
+    border: 5px solid black;
+    margin: 5vh 5% 5vh;
+    background: url(map.jpg) no-repeat center fixed;
+    background-size:cover;
+}
+#example2{
     height: 10vh;
     width: 10vh;
     border: 5px solid black;
 }
-#example2{
+#example3{
+    height: 10vh;
+    width: 10vh;
+    border: 5px solid black;
+}
+#example4{
     height: 10vh;
     width: 10vh;
     border: 5px solid black;
